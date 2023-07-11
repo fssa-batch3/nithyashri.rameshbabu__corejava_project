@@ -3,7 +3,6 @@ package day02.solved;
 public class AreacircleRec {
 
 
-	   // Calculating Area for Circle
     public double calculateArea(double radius) {
         return Math.PI * radius * radius;
     }
