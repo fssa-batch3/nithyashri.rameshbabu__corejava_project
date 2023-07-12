@@ -4,13 +4,13 @@ public class User {
       
 	private String name;
 	private String email;
-	private String pass;
+	private int pass;
 	
 	
-	public User() {	
+	public User() {		
 	}
 	
-	public User(String name , String email, String pass) {
+	public User(String name , String email, int pass) {
 		this.name = name;
 		this.email = email;
 		this.pass = pass;
@@ -29,10 +29,10 @@ public class User {
 	public void SetEmail(String email) {
 		this.email = email;
 	}
-	public String getPass() {
+	public int getPass() {
 		return pass;
 	}
-	public void SetPass(String pass) {
+	public void SetPass(int pass) {
 		this.pass = pass;
 	}
 	
@@ -41,7 +41,7 @@ public class User {
 		User one = new User();
 		one.SetName("Nithyashri");
 		one.SetEmail("nithirmsh@gmail.com");
-		one.SetPass("A0109");
+		one.SetPass(123);
 		
 		System.out.println("User 1");
 		System.out.println("Name" + " = " + one.getName());
@@ -49,7 +49,7 @@ public class User {
 		System.out.println("Password" + " = " +  one.getPass());
 		
 		System.out.println();
-		User two = new User("Ramesh" , "ramesh@gmail.com", "A0908");
+		User two = new User("Ramesh" , "ramesh@gmail.com", 123);
 		System.out.println("User 2");
 		System.out.println("Name" + " = " + two.getName());
 		System.out.println("Email" + " = " + two.getEmail());
