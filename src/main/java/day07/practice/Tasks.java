@@ -13,7 +13,11 @@ public class Tasks {
 	        this.deadline = deadline;
 	    }
 
-	    public int getId() {
+	    public Tasks(String string, int i, String string2) {
+			// TODO Auto-generated constructor stub
+		}
+
+		public int getId() {
 	        return id;
 	    }
 
