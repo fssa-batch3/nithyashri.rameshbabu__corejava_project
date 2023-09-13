@@ -17,6 +17,11 @@ public class User {
 				
 	}
 	
+	public User(String email, int pass) {
+		this.email = email;
+		this.pass = pass;		
+	}
+	
 	public String getName() {
 		return name;
 	}
@@ -49,11 +54,11 @@ public class User {
 		System.out.println("Password" + " = " +  one.getPass());
 		
 		System.out.println();
-		User two = new User("Ramesh" , "ramesh@gmail.com", 123);
+		User two1 = new User("ramesh@gmail.com", 123);
 		System.out.println("User 2");
-		System.out.println("Name" + " = " + two.getName());
-		System.out.println("Email" + " = " + two.getEmail());
-		System.out.println("Password" + " = " + two.getPass());
+		System.out.println("Name" + " = " + two1.getName());
+		System.out.println("Email" + " = " + two1.getEmail());
+		System.out.println("Password" + " = " + two1.getPass());
 		
 	}
 }

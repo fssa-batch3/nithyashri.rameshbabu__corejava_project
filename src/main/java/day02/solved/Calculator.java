@@ -20,5 +20,5 @@ public class Calculator {
 		System.out.println(calc.add(2.5, 3.7));       
 		System.out.println(calc.add("Hello", "World")); 
 }
-	
+
 }
